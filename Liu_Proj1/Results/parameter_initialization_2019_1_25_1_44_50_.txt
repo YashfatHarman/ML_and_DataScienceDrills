@@ -1,0 +1,110 @@
+final results for perameter initialization test. 
+
+model:  model1_deep
+params:  kernel_initializer_mode__ru_point_zero_five
+accuracy: 0.187  0.371  0.647  0.776  0.816  0.877  0.922  0.938  0.948  0.957  0.962  0.966  0.970  0.973  0.977  0.979  0.981  0.983  0.985  0.984  
+val_accuracy: 0.303  0.545  0.560  0.803  0.853  0.900  0.925  0.929  0.944  0.951  0.922  0.953  0.958  0.963  0.963  0.960  0.963  0.963  0.958  0.962  
+last epoch accuracy (test, val) : 0.9841, 0.9616
+
+model:  model1_deep
+params:  kernel_initializer_mode__ru_one
+accuracy: 0.522  0.704  0.758  0.801  0.835  0.852  0.866  0.884  0.891  0.900  0.906  0.910  0.916  0.924  0.927  0.929  0.932  0.936  0.941  0.944  
+val_accuracy: 0.682  0.721  0.792  0.807  0.822  0.848  0.848  0.866  0.862  0.870  0.868  0.885  0.884  0.886  0.884  0.885  0.884  0.881  0.884  0.893  
+last epoch accuracy (test, val) : 0.9438, 0.8932
+
+model:  model1_deep
+params:  kernel_initializer_mode__ru_five
+accuracy: 0.207  0.283  0.293  0.302  0.306  0.304  0.298  0.281  0.293  0.287  0.289  0.284  0.298  0.277  0.280  0.285  0.309  0.310  0.293  0.315  
+val_accuracy: 0.277  0.311  0.312  0.310  0.321  0.321  0.292  0.308  0.319  0.305  0.286  0.307  0.297  0.303  0.295  0.286  0.318  0.323  0.264  0.325  
+last epoch accuracy (test, val) : 0.3146, 0.3247
+
+model:  model1_deep
+params:  kernel_initializer_mode__zeros
+accuracy: 0.163  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  
+val_accuracy: 0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  
+last epoch accuracy (test, val) : 0.1640, 0.1616
+
+model:  model1_deep
+params:  kernel_initializer_mode__he_normal
+accuracy: 0.673  0.901  0.928  0.945  0.953  0.960  0.963  0.970  0.973  0.979  0.980  0.985  0.983  0.988  0.989  0.993  0.994  0.993  0.995  0.996  
+val_accuracy: 0.852  0.890  0.941  0.949  0.947  0.948  0.949  0.955  0.929  0.955  0.958  0.955  0.956  0.952  0.958  0.956  0.962  0.962  0.958  0.962  
+last epoch accuracy (test, val) : 0.9963, 0.9616
+
+model:  model1_deep
+params:  kernel_initializer_mode__glorot_normal
+accuracy: 0.590  0.898  0.937  0.947  0.957  0.963  0.966  0.973  0.975  0.978  0.981  0.985  0.985  0.988  0.988  0.988  0.991  0.993  0.993  0.993  
+val_accuracy: 0.856  0.937  0.918  0.952  0.955  0.951  0.956  0.960  0.959  0.962  0.960  0.966  0.963  0.963  0.960  0.966  0.964  0.966  0.963  0.968  
+last epoch accuracy (test, val) : 0.9930, 0.9685
+
+model:  model2_local_no_weight_share
+params:  kernel_initializer_mode__ru_point_zero_five
+accuracy: 0.175  0.233  0.342  0.636  0.769  0.813  0.842  0.860  0.873  0.888  0.901  0.909  0.918  0.921  0.927  0.929  0.934  0.936  0.938  0.942  
+val_accuracy: 0.162  0.303  0.519  0.722  0.795  0.827  0.840  0.864  0.879  0.903  0.910  0.922  0.933  0.937  0.934  0.945  0.945  0.942  0.944  0.944  
+last epoch accuracy (test, val) : 0.9424, 0.9438
+
+model:  model2_local_no_weight_share
+params:  kernel_initializer_mode__ru_one
+accuracy: 0.305  0.384  0.387  0.388  0.385  0.390  0.385  0.389  0.389  0.390  0.390  0.391  0.391  0.391  0.391  0.391  0.391  0.391  0.391  0.391  
+val_accuracy: 0.374  0.390  0.390  0.390  0.392  0.382  0.390  0.390  0.392  0.390  0.390  0.390  0.390  0.390  0.390  0.390  0.390  0.390  0.390  0.390  
+last epoch accuracy (test, val) : 0.3914, 0.3904
+
+model:  model2_local_no_weight_share
+params:  kernel_initializer_mode__ru_five
+accuracy: 0.102  0.102  0.102  0.102  0.102  0.102  0.102  0.102  0.102  0.102  0.102  0.102  0.102  0.102  0.102  0.102  0.102  0.102  0.102  0.102  
+val_accuracy: 0.085  0.085  0.085  0.085  0.085  0.085  0.085  0.085  0.085  0.085  0.085  0.085  0.085  0.085  0.085  0.085  0.085  0.085  0.085  0.085  
+last epoch accuracy (test, val) : 0.1020, 0.0849
+
+model:  model2_local_no_weight_share
+params:  kernel_initializer_mode__zeros
+accuracy: 0.162  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  
+val_accuracy: 0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  
+last epoch accuracy (test, val) : 0.1640, 0.1616
+
+model:  model2_local_no_weight_share
+params:  kernel_initializer_mode__he_normal
+accuracy: 0.163  0.164  0.175  0.296  0.450  0.659  0.742  0.802  0.838  0.853  0.859  0.870  0.874  0.882  0.885  0.891  0.897  0.907  0.910  0.918  
+val_accuracy: 0.162  0.162  0.268  0.305  0.615  0.707  0.795  0.838  0.844  0.841  0.868  0.870  0.881  0.890  0.899  0.878  0.907  0.901  0.916  0.934  
+last epoch accuracy (test, val) : 0.9183, 0.9342
+
+model:  model2_local_no_weight_share
+params:  kernel_initializer_mode__glorot_normal
+accuracy: 0.169  0.164  0.164  0.220  0.299  0.423  0.596  0.676  0.762  0.799  0.819  0.831  0.848  0.854  0.861  0.873  0.877  0.882  0.888  0.892  
+val_accuracy: 0.162  0.162  0.162  0.300  0.303  0.526  0.653  0.727  0.785  0.797  0.836  0.842  0.853  0.855  0.870  0.875  0.868  0.871  0.885  0.889  
+last epoch accuracy (test, val) : 0.8924, 0.8890
+
+model:  model3_local_weight_share_basically_CNN
+params:  kernel_initializer_mode__ru_point_zero_five
+accuracy: 0.394  0.868  0.905  0.928  0.952  0.955  0.962  0.967  0.969  0.972  0.976  0.979  0.981  0.982  0.982  0.983  0.986  0.987  0.988  0.985  
+val_accuracy: 0.860  0.896  0.944  0.941  0.908  0.959  0.959  0.968  0.930  0.974  0.971  0.945  0.971  0.974  0.968  0.973  0.967  0.970  0.966  0.968  
+last epoch accuracy (test, val) : 0.9854, 0.9685
+
+model:  model3_local_weight_share_basically_CNN
+params:  kernel_initializer_mode__ru_one
+accuracy: 0.750  0.914  0.944  0.957  0.964  0.974  0.975  0.981  0.983  0.987  0.990  0.992  0.991  0.996  0.996  0.996  0.998  0.998  0.999  0.999  
+val_accuracy: 0.866  0.926  0.951  0.944  0.962  0.960  0.967  0.964  0.938  0.960  0.945  0.941  0.956  0.968  0.970  0.968  0.973  0.970  0.974  0.970  
+last epoch accuracy (test, val) : 0.9988, 0.9699
+
+model:  model3_local_weight_share_basically_CNN
+params:  kernel_initializer_mode__ru_five
+accuracy: 0.086  0.086  0.086  0.086  0.086  0.086  0.086  0.086  0.086  0.086  0.086  0.086  0.086  0.086  0.086  0.086  0.086  0.086  0.086  0.086  
+val_accuracy: 0.111  0.111  0.111  0.111  0.111  0.111  0.111  0.111  0.111  0.111  0.111  0.111  0.111  0.111  0.111  0.111  0.111  0.111  0.111  0.111  
+last epoch accuracy (test, val) : 0.0860, 0.1110
+
+model:  model3_local_weight_share_basically_CNN
+params:  kernel_initializer_mode__zeros
+accuracy: 0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  0.164  
+val_accuracy: 0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  0.162  
+last epoch accuracy (test, val) : 0.1640, 0.1616
+
+model:  model3_local_weight_share_basically_CNN
+params:  kernel_initializer_mode__he_normal
+accuracy: 0.816  0.933  0.949  0.962  0.968  0.974  0.976  0.984  0.982  0.986  0.987  0.989  0.990  0.992  0.992  0.995  0.992  0.995  0.996  0.998  
+val_accuracy: 0.912  0.956  0.970  0.958  0.966  0.974  0.971  0.975  0.975  0.974  0.978  0.970  0.968  0.975  0.975  0.977  0.974  0.979  0.981  0.973  
+last epoch accuracy (test, val) : 0.9977, 0.9726
+
+model:  model3_local_weight_share_basically_CNN
+params:  kernel_initializer_mode__glorot_normal
+accuracy: 0.782  0.928  0.946  0.958  0.962  0.965  0.974  0.977  0.981  0.984  0.988  0.987  0.988  0.991  0.989  0.992  0.994  0.994  0.993  0.994  
+val_accuracy: 0.918  0.949  0.932  0.956  0.958  0.949  0.971  0.960  0.971  0.982  0.978  0.974  0.975  0.970  0.974  0.959  0.984  0.978  0.977  0.974  
+last epoch accuracy (test, val) : 0.9939, 0.9740
+
